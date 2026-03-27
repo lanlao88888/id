@@ -96,7 +96,7 @@ def main():
                                     send_message(chat_id,
                                                  f"❌ 无法获取群组信息\n\n"
                                                  f"原因：{result.get('description', '未知错误')}\n\n"
-                                                 f"可能机器人不在该群组中")
+                                                 f"用户名可能不存在")
                             
 
 
