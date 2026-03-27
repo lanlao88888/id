@@ -72,7 +72,7 @@ def main():
                             username = extract_username(text)
 
                             if username:
-                                send_message(chat_id, f"🔍 正在查询 @{username}...")
+                                
 
                                 # 获取群组信息
                                 result = get_chat_id(username)
