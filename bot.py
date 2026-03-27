@@ -98,7 +98,8 @@ def main():
                                                  f"原因：{result.get('description', '未知错误')}\n\n"
                                                  f"可能机器人不在该群组中")
                             else:
-                                send_message(chat_id, "❌ 无法识别链接格式")
+                                return
+
 
             time.sleep(1)
 
