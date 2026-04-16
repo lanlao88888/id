@@ -1,9 +1,10 @@
 name = "id"
 main = "bot.py"
 compatibility_date = "2024-04-01"
-compatibility_flags = ["python_workers"]  # 强制在此添加标志
 
-[[python_workers]]
+# 这里的 [python_workers] 必须加 s，且明确列出所有包
+[python_workers]
+packages = ["fastapi", "pyodide-http", "requests"]
 
 [observability]
 enabled = true
