@@ -1,6 +1,7 @@
 name = "id"
 main = "bot.py"
 compatibility_date = "2024-04-01"
+compatibility_flags = ["python_workers"]  # 强制在此添加标志
 
 [[python_workers]]
 
