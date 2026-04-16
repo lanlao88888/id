@@ -1,2 +1,3 @@
 fastapi
 pyodide-http
+requests
