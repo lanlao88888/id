@@ -1,6 +1,9 @@
 from fastapi import FastAPI, Request
-import requests
 import re
+import pyodide_http  # 1. 导入补丁库
+pyodide_http.patch_all()  # 2. 应用补丁
+
+import requests # 现在可以安全使用了
 
 app = FastAPI()
 
