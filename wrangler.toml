@@ -2,11 +2,8 @@ name = "id"
 main = "bot.py"
 compatibility_date = "2024-04-01"
 
-[vars]
-# 暂时留空
-
+# 核心修正：必须包含下面这两行，且格式必须完全一致
 [[python_workers]]
-# 必须有这一行
 
 [observability]
 enabled = true
